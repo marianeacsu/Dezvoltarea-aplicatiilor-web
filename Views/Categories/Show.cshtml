@@ -1,0 +1,29 @@
+﻿@model ProiectFinal.Models.Category
+
+@{
+    ViewBag.Title = "Afisare categorie";
+}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/styleAfisareCateg.css" media="screen" />
+</head>
+
+<h2>@ViewBag.Title</h2>
+
+<p>@Model.CategoryName</p>
+
+<form method="post" action="/Categories/Delete/@Model.CategoryId">
+
+    @Html.HttpMethodOverride(HttpVerbs.Delete)
+
+    <button class="btn btn-success" type="submit">Sterge categorie</button>
+
+</form>
+
+<br />
+
+<a class="btn btn-success" href="/Categories/Index">Afisare lista categorii</a>
+
+<br />
+<hr />
+<br />

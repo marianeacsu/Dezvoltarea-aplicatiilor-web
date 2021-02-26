@@ -1,0 +1,75 @@
+﻿@model ProiectFinal.Models.Product
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/styleListaProduse.css" media="screen" />
+</head>
+
+<h1>@ViewBag.Message</h1>
+<h2>Produse</h2>
+
+@if (User.IsInRole("Admin"))
+{
+    <a class="btn btn-primary" href="/Categories/Index">Afisare categorii</a>
+}
+
+<a class="btn btn-primary" href="/Products/New">Adauga produs</a>
+<br />
+
+<form method="get" action="/Products/Index" id="searchForm">
+    <div class="input-group input-group-lg mb-5">
+        <div class="input-group-prepend show">
+            <select name="sort" class="btn btn-primary" onchange="document.getElementById('searchForm').submit()">
+                <option value="" class="bg-white text-black">Sorteaza dupa</option>
+                <option value="price-asc" @(ViewBag.sort == "price-asc" ? "selected" : "") class="bg-white text-black">Pret crescator</option>
+                <option value="price-desc" @(ViewBag.sort == "price-desc" ? "selected" : "") class="bg-white text-black">Pret descrescator</option>
+                <option value="rating-asc" @(ViewBag.sort == "rating-asc" ? "selected" : "") class="bg-white text-black">Rating crescator</option>
+                <option value="rating-desc" @(ViewBag.sort == "rating-desc" ? "selected" : "") class="bg-white text-black">Rating descrescator</option>
+            </select>
+        </div>
+
+        <input name="search" class="form-control" type="text" placeholder="Cautare.." value="@ViewBag.search" />
+    </div>
+</form>
+
+@foreach (var product in ViewBag.Products)
+{
+    if (product.Accepted)
+    {
+        <h2 class="numeProd">@product.ProdName</h2>
+        <p class="pretProd">@product.Category.CategoryName</p>
+        <img src="~/Files/@product.FileName" alt="@product.FileName" height="200px" />
+        <h3 class="pretProd">@product.ProdPrice lei</h3>
+        <p class="FinalRating">Rating : @product.ProdRating</p>
+        if (product.ProdRating == 1)
+        {
+            <p class="SumRating">&#9733;&#9734;&#9734;&#9734;&#9734;</p>
+        }
+        else if (product.ProdRating == 2)
+        {
+            <p class="SumRating">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+        }
+        else if (product.ProdRating == 3)
+        {
+            <p class="SumRating">&#9733;&#9733;&#9734;&#9734;&#9734;</p>
+        }
+        else if (product.ProdRating == 4)
+        {
+            <p class="SumRating">&#9733;&#9733;&#9734;&#9734;&#9734;</p>
+        }
+        else if (product.ProdRating == 5)
+        {
+            <p class="SumRating">&#9733;&#9733;&#9734;&#9734;&#9734;</p>
+        }
+        else if (@product.ProdRating == 0)
+        {
+            <p class="SumRating">&#9734;&#9734;&#9734;&#9734;&#9734;</p>
+        }
+        <p class="descrProd">@product.Content</p>
+        <p class="descrProd">@product.Date</p>
+        <a class="btn btn-success" href="/Products/Show/@product.ProdId">Afisare produs</a>
+    }
+}

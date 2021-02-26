@@ -1,0 +1,54 @@
+﻿@model ProiectFinal.Models.Product
+
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/styleAdaugareProd.css" media="screen" />
+</head>
+
+<h2> id="titluProd"</h2>>Adaugare produs</h2>
+
+
+@using (Html.BeginForm("New", "Products", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
+    @Html.Label("ProdName", "Nume produs", new { @class = "descrProd" });
+    @Html.ValidationMessageFor(m => m.ProdName, null, new { @class = "text-danger" })
+
+    @*<label class="descrProd">Titlu produs</label>*@
+    <br />
+    <input type="text" name="ProdName" />
+    <br />
+    @Html.Label("Content", "Descriere produs", new { @class = "descrProd" });
+    @*<label class="descrProd">Descriere produs</label>*@
+    <br />
+    <textarea name="Content"></textarea>
+    <br />
+    @*@Html.Label("Price", "Pret produs", new { @class = "descrProd" });*@
+    <label class="descrProd">Pret produs</label>
+    <br />
+    <textarea name="ProdPrice"></textarea>
+    @Html.ValidationMessage("ProdPrice", null, new { @class = "text-danger" })
+    <br />
+    <input type="hidden" name="Date" value="@DateTime.Now" />
+    <br />
+    <label class="descrProd">Selectati categoria</label>
+    <br />
+
+    <select name="CategoryId">
+        @foreach (var category in ViewBag.Categories)
+        {
+            <option value="@category.CategoryId">@category.CategoryName</option>
+        }
+    </select>
+    <br />
+
+    <label class="descrProd">Alege o poza</label>
+    <br />
+    <input type="file" name="Image" class="adauga" />
+    <br />
+
+    <button class="btn btn-success" name="total" value="Adauga produs" type="submit">Adauga produs</button>
+}
+
+

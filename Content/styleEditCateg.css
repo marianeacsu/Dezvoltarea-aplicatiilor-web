@@ -1,0 +1,17 @@
+﻿#titluCateg {
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.numeCategorie
+{
+    color: white;
+    padding-top: 30px;
+    font-family: Cambria;
+    font-size: 27px;
+    letter-spacing: 5px;
+}

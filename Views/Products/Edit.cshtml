@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/styleEditProd.css" media="screen" />
+</head>
+
+<h2 id="titluProd">Editare produs</h2>
+
+<form method="post" action="/Products/Edit/@ViewBag.Product.ProdId">
+    @Html.HttpMethodOverride(HttpVerbs.Put)
+    <br />
+    @Html.Label("ProdName", "Titlu produs", new { @class = "numeProd" });
+    @*<label class="numeProd">Titlu produs</label>*@
+    <br />
+    <input type="text" name="ProdName" value="@ViewBag.Product.ProdName" />
+    <br /><br />
+    @Html.Label("ProdPrice", "Pret produs", new { @class = "numeProd" });
+    @*<label class="numeProd">Pret produs</label>*@
+    <br />
+    <input type="text" name="ProdPrice" value="@ViewBag.Product.ProdPrice" />
+    <br /><br />
+    @Html.Label("Content", "Descriere produs", new { @class = "numeProd" });
+    @*<label class="numeProd">Descriere produs</label>*@
+    <br />
+    <input type="text" name="Content" value="@ViewBag.Product.Content" />
+    <br /><br />
+    @Html.Label("Date", "Data", new { @class = "numeProd" });
+    @*<label class="numeProd">Data</label>*@
+    <br />
+    <input type="text" name="Date" value="@ViewBag.Product.Date" />
+    <br /><br />
+    <label class="numeProd">Categorie</label>
+    <br />
+    <select name="CategoryId">
+        @foreach (var category in ViewBag.Categories)
+        {
+            <option @{ if (category.CategoryId == ViewBag.Category.CategoryId) { @: selected="selected"
+                    } }
+                    value="@category.CategoryId">
+                @category.CategoryName
+            </option>
+        }
+    </select>
+    <br /><br />
+    <button class="btn btn-success" type="submit">Modifica produs</button>
+</form>
+
+

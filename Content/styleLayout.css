@@ -1,0 +1,52 @@
+﻿body {
+    background: #ffd800
+}
+
+.navbar-inverse .navbar-nav > li > a
+{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #5cb85c;
+}
+
+#sigla {
+    margin-left: -230px;
+    font-family: 'Garamond';
+
+}
+
+.navbar-brand
+{
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+    color: #5cb85c;
+    background-color:transparent;
+}
+
+.navbar{
+    box-shadow: 1px 2px 3px black;
+}
+
+::-webkit-scrollbar{
+    width:13px;
+}
+
+::-webkit-scrollbar-track{
+    background: #8a8a8a
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: #5cb85c;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#0b6301;
+}

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Pet Shop</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Pet Shop", "Index", "Home", new { area = "" }, new { @class = "navbar-brand font-logo" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Produse", "Index", "Products")</li>
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li class="lista">@Html.ActionLink("Afisare Categorii", "Index", "Categories")</li>
+                        <li class="lista">@Html.ActionLink("Produse inactive", "Accept", "Products")</li>
+                        <li class="lista">@Html.ActionLink("Utilizatori", "Index", "Users")</li>
+                        
+                    }
+
+                    @if (User.IsInRole("Editor") || User.IsInRole("Admin") || User.IsInRole("User"))
+                    {
+                        <a href="/ShopCart/Index" class="btn btn-info btn-lg">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                        </a>
+                    }
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - <span class="logo-font">Pet Shop</span></p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.js"></script>
+    @Scripts.Render("~/Scripts/Summernote.js");
+
+</body>
+</html>

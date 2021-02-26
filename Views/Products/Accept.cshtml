@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Acceptare produs";
+}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/styleLogin.css" media="screen" />
+</head>
+
+<h2>Accept</h2>
+
+@if (TempData.ContainsKey("message"))
+{
+    <br />
+    <br />
+    <div class="alert alert-success">
+        @ViewBag.message
+    </div>
+}
+
+@foreach (var product in ViewBag.Products)
+{
+    if(!product.Accepted)
+    {
+        <div class="card post-preview post-preview-featured lift mb-5">
+            <div class="row no-gutters">
+                <div class="col-lg-7">
+                    <div class="card-body">
+                        <div class="pb-5">
+                            @if (User.IsInRole("Editor") || User.IsInRole("Admin"))
+                            {
+                                <form class="float-right" method="post" action="/Products/Delete/@product.ProdId">
+                                    @Html.HttpMethodOverride(HttpVerbs.Delete)
+                                    <a class="btn btn-success btn-sm" href="/Products/Edit/@product.ProdId"><i class="glyphicon glyphicon-edit"></i> &nbsp;Editare</a>
+                                    &nbsp;&nbsp;<button type="submit" class="btn btn-danger btn-sm"><i class="glyphicon glyphicon-trash"></i> &nbsp;Sterge produs</button>
+                                </form>
+                            }
+                            <a class="text-dark" href="/Products/Show/@product.ProdId"><h1>@product.ProdName</h1></a>
+                            <p>@product.Content</p>
+                            <span><i class="glyphicon glyphicon-bitcoin"></i> &nbsp;Pret : @product.ProdPrice lei</span>
+                            <br />
+                            <span><i class="glyphicon glyphicon-globe"></i> &nbsp;Categorie: @product.Category.CategoryName</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a class="text-arrow-icon small" href="/Products/Show/@product.ProdId">Vizualizare &nbsp;<i class="glyphicon glyphicon-arrow-right"></i></a>
+                            </div>
+                            <div class="col-md-6">
+                                <form class="float-right" method="post" action="/Products/Accept/@product.ProdId">
+                                    <button type="submit" class="btn btn-success btn-sm"><i class="glyphicon glyphicon-ok"></i> &nbsp;Acceptare produs</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+<br />
+
+@if (User.IsInRole("Helper") || User.IsInRole("Admin"))
+{
+    <a class="btn btn-primary" href="/Products/New"><i class="glyphicon glyphicon-plus-sign"></i> &nbsp;Produs nou</a>
+}

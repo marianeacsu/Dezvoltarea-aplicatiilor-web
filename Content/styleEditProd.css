@@ -1,0 +1,20 @@
+﻿#titluProd{
+    color:white;
+    text-align:center;
+    padding-top: 30px;
+    font-family: 'Algerian', cursive;
+    font-size: 24px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.numeProd{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.btn{
+    margin-top: 20px;
+}
+

@@ -1,0 +1,154 @@
+﻿
+@model ProiectFinal.Models.Product
+@using Microsoft.AspNet.Identity;
+
+@{
+    ViewBag.Title = "Show";
+}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/styleAfisareProd.css" media="screen" />
+</head>
+
+
+
+
+<h1 id="titluProd">Afisare produs</h1>
+<h2 class="numeProd">@ViewBag.Product.ProdName</h2>
+<p class="pretProd">Categorie: @ViewBag.Category.CategoryName</p>
+<img src="~/Files/@ViewBag.FileName" alt="@ViewBag.FileName" height="200px" />
+<h2 class="pretProd">@ViewBag.Product.ProdPrice lei</h2>
+@if (ViewBag.Product.ProdRating == 1)
+{
+    <p class="FinalRating">&#9733;&#9734;&#9734;&#9734;&#9734;</p>
+}
+else if (@ViewBag.Product.ProdRating == 2)
+{
+    <p class="FinalRating">&#9733;&#9733;&#9734;&#9734;&#9734;</p>
+}
+else if (@ViewBag.Product.ProdRating == 3)
+{
+    <p class="FinalRating">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+}
+else if (@ViewBag.Product.ProdRating == 4)
+{
+    <p class="FinalRating">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+}
+else if (@ViewBag.Product.ProdRating == 5)
+{
+    <p class="FinalRating">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+}
+else if (@ViewBag.Product.ProdRating == 0)
+{
+    <p class="ProdRating">&#9734;&#9734;&#9734;&#9734;&#9734;</p>
+}
+<h2 class="FinalRating">Rating: @ViewBag.Product.ProdRating</h2>
+<p class="descrProd">@ViewBag.Product.Content</p>
+<p class="descrProd">@ViewBag.Product.Date</p>
+
+
+
+@if (@ViewBag.Product.UserId == User.Identity.GetUserId() || User.IsInRole("Editor") || User.IsInRole("Admin"))
+{
+    <a class="btn btn-success" href="/Products/Edit/@ViewBag.Product.ProdId">Modifica produs</a>
+}
+
+@if (@ViewBag.Product.UserId == User.Identity.GetUserId() || User.IsInRole("Editor") || User.IsInRole("Admin"))
+{
+    <form method="post" action="/Products/Delete/@ViewBag.Product.ProdId">
+        @*@Html.HttpMethodOverride(HttpVerbs.Delete)*@
+        <input name="X-HTTP-Method-Override" type="hidden" value="DELETE" />
+        <button class="btn btn-danger" type="submit">Sterge produs</button>
+    </form>
+}
+
+<hr />
+<a class="btn btn-success" href="/Products/Index">Inapoi la produse</a>
+<br />
+<a class="btn btn-info" href="/Products/New">Adauga produs</a>
+<br />
+
+
+<br />
+@foreach (var comm in ViewBag.Product.Comments)
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div>
+                    <p class="descrProd">@comm.UserId</p>
+                    <p class="descrProd">@comm.Content</p>
+                    @if (comm.Rating == 1)
+                    {
+                        <p class="descrProd">&#9733;&#9734;&#9734;&#9734;&#9734;</p>
+                    }
+                    else if (comm.Rating == 2)
+                    {
+                        <p class="descrProd">&#9733;&#9733;&#9734;&#9734;&#9734;</p>
+                    }
+                    else if (comm.Rating == 3)
+                    {
+                        <p class="descrProd">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
+                    }
+                    else if (comm.Rating == 4)
+                    {
+                        <p class="descrProd">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                    }
+                    else if (comm.Rating == 5)
+                    {
+                        <p class="descrProd">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                    }
+                    <p class="descrProd">@comm.Rating</p>
+                    <small class="pull-right descrProd">@comm.Date</small>
+                </div>
+
+                @if (comm.UserId == User.Identity.GetUserId() || User.IsInRole("Editor") || User.IsInRole("Admin"))
+                {
+                    <div style="display: inline-block; float : left; margin-right: 15px">
+                        <a class="glyphicon glyphicon-pencil" href="/Comments/Edit/@comm.CommentId"></a>
+                    </div>
+                    <div style="display: inline-block; float : left">
+                        <form method="post" action="/Comments/Delete/@comm.CommentId">
+                            @Html.HttpMethodOverride(HttpVerbs.Delete)
+                            <button class="glyphicon glyphicon-trash" style="border: none; background: transparent; color: red;" type="submit"></button>
+                        </form>
+                    </div>
+                }
+
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+    <hr />
+}
+
+@if (User.IsInRole("User") || User.IsInRole("Editor") || User.IsInRole("Admin"))
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <div class="panel">
+                    <form method="post" action="/Products/Show/@ViewBag.Product.ProdId">
+                        <div class="panel-body">
+                            <input type="hidden" name="ProductId" value="@ViewBag.Product.ProdId" />
+                            <label>Continut Comentariu</label>
+                            <br />
+                            <textarea class="form-control" name="Content"></textarea>
+                            @Html.ValidationMessage("Content", "", new { @class = "text-danger" })
+                            <br />
+                            <label for="rating">Rating produs (1-5):</label>
+                            <br />
+                            <input type="number" name="Rating" min="1" max="5" />
+                            <br /><br />
+                            <button class="btn btn-success " type="submit">Adauga Comentariu</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+}
