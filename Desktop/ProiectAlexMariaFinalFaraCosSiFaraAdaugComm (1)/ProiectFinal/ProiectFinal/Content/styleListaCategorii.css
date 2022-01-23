@@ -1,0 +1,22 @@
+﻿#titluCateg
+{
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.numeCateg{
+    color:white;
+    padding-top: 10px;
+    font-family: Magneto;
+    font-size: 27px;
+    letter-spacing: 4px;
+}
+
+.btn{
+    font-size: 12px;
+    margin-left: 24px;
+}

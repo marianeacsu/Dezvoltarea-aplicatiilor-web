@@ -1,0 +1,221 @@
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\ProiectFinal.dll.config
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\ProiectFinal.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\ProiectFinal.pdb
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\csc.exe
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\csc.exe.config
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\csc.rsp
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\csi.exe
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\csi.exe.config
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\csi.rsp
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.AppContext.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Console.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.IO.Compression.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Security.Claims.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.ValueTuple.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\vbc.exe
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\vbc.exe.config
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\vbc.rsp
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\VBCSCompiler.exe
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Antlr3.Runtime.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\EntityFramework.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\EntityFramework.SqlServer.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Newtonsoft.Json.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Owin.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\System.Web.Helpers.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\System.Web.Mvc.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\System.Web.Optimization.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\System.Web.Razor.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\System.Web.WebPages.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\System.Web.WebPages.Razor.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\WebGrease.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\System.Web.Helpers.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\System.Web.Mvc.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\System.Web.Optimization.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\System.Web.Razor.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\System.Web.WebPages.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\System.Web.WebPages.Razor.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Newtonsoft.Json.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Antlr3.Runtime.pdb
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\EntityFramework.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\EntityFramework.SqlServer.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\obj\Debug\ProiectFinal.csprojAssemblyReference.cache
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\obj\Debug\ProiectFinal.csproj.CoreCompileInputs.cache
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\obj\Debug\ProiectFinal.csproj.CopyComplete
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\obj\Debug\ProiectFinal.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\obj\Debug\ProiectFinal.pdb
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\AntiXssLibrary.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\HtmlSanitizationLibrary.dll
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\AntiXssLibrary.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\bin\HtmlSanitizationLibrary.xml
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\obj\Debug\ProiectFinal.Migrations.init.resources
+C:\Users\40757\source\repos\ProiectFinal\ProiectFinal\obj\Debug\ProiectFinal.csproj.GenerateResource.cache
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\ProiectFinal.dll.config
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\ProiectFinal.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\ProiectFinal.pdb
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\csc.exe
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\csc.exe.config
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\csc.rsp
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\csi.exe
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\csi.exe.config
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\csi.rsp
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.AppContext.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Console.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Security.Claims.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\vbc.exe
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\vbc.exe.config
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\vbc.rsp
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\AntiXssLibrary.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Antlr3.Runtime.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\EntityFramework.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\EntityFramework.SqlServer.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\HtmlSanitizationLibrary.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Newtonsoft.Json.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Owin.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\System.Web.Helpers.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\System.Web.Mvc.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\System.Web.Optimization.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\System.Web.Razor.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\System.Web.WebPages.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\System.Web.WebPages.Razor.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\WebGrease.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\AntiXssLibrary.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\EntityFramework.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\EntityFramework.SqlServer.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\HtmlSanitizationLibrary.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\System.Web.Helpers.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\System.Web.Mvc.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\System.Web.Optimization.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\System.Web.Razor.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\System.Web.WebPages.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\System.Web.WebPages.Razor.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Newtonsoft.Json.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Antlr3.Runtime.pdb
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\obj\Debug\ProiectFinal.csprojAssemblyReference.cache
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\obj\Debug\ProiectFinal.Migrations.init.resources
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\obj\Debug\ProiectFinal.csproj.GenerateResource.cache
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\obj\Debug\ProiectFinal.csproj.CopyComplete
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\obj\Debug\ProiectFinal.dll
+C:\Users\Maria\Desktop\ProiectAlexMariaFinalFaraCosSiFaraAdaugComm (1)\ProiectFinal\ProiectFinal\obj\Debug\ProiectFinal.pdb

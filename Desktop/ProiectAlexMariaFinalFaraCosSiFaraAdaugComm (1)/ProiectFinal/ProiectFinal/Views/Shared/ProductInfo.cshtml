@@ -1,0 +1,19 @@
+﻿<div class="panel-heading"><img src="~/Images/@Model.Image.ImageName" class="img-responsive center-block" max-width="20%" max-height="20%"</div>
+<div class="panel-body">
+    <h3><strong>@Model.ProdName</strong></h3>
+
+    Descriere produs : <strong>@Model.Content</strong>
+    <br />
+
+    <i class="glyphicon glyphicon-euro"></i> @Model.ProdPrice
+    <br />
+
+    <i class="glyphicon glyphicon-globe"></i> @Model.Category.CategoryName
+    <br />
+
+    @if (User.IsInRole("Admin") || User.IsInRole("Helper"))
+    {
+        <i class="glyphicon glyphicon-user"></i> <i>produs adaugat de</i>
+        <strong> @Model.User.UserName</strong>
+    }
+</div>

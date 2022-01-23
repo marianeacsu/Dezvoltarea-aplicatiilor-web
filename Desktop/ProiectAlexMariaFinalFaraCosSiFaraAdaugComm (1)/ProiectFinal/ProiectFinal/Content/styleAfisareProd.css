@@ -1,0 +1,46 @@
+﻿#titluProd {
+    color: #bff0aa;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Garamond', cursive;
+    font-size: 20px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.numeProd
+{
+    color: green;
+    padding-top: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+
+.pretProd{
+    color: darkolivegreen;
+    font-family: 'Garamond', cursive;
+    font-size: 14px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.descrProd{
+    color:white;
+    font-family:'Cambria', monospace;
+    font-size: 15px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.FinalRating {
+    color:white;
+    font-family: 'Garamond', cursive;
+    font-size: 15px;
+}
+
+.btn-danger{
+    margin-top: 10px;
+}
+
+.btn-info
+{
+    margin-top: 10px;
+}
